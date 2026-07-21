@@ -329,7 +329,7 @@ if has('nvim')
   call s:h("DiagnosticUnderlineError", {"cterm": "underline", "gui": "underline", "sp": s:red})
 
   " Telescope support
-  call s:h("TelescopeNormal", {"fg": s:astral0, "bg": s:bg})
+  call s:h("TelescopeNormal", {"fg": s:astral0})
   hi link TelescopeBorder LineNr
   call s:h("TelescopeSelectionCaret", {"bg": s:visual, "fg": s:green})
   call s:h("TelescopeSelection", {"bg": s:visual, "fg": s:astral1})
